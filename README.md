@@ -8,29 +8,39 @@ Se necesita tener las librerias, el github y un IDE.
 Instalación 🔧
 Realizar el programa.
 
-Se lee atraves del textLabel la frase a encriptar y se le aplica la cadena(en mi caso) por un btnEncriptar, porque no pude aplicar el cifrado porque no lo entiendo, hay muchas cosas que no entiendo
-pero es lo que hay.
+--Algoritmo de encriptado
 
-Despues el resultado se inprime en la area de texto.
+for linea in texto -> split ("\ n") do
+for caracter in linea -> toCharArray () do
+if caracter -> isLetter () then
+caracter = caracter + 3
+cadena = cadena + caracter
+shifttext = cadena -> reverse ()
+h = -> shifttext -> length () /2
+for caracter in shifttext -> substring (0 , h) ->
+toCharArray () do
+shiftCadena = shiftCcadena + ( caracter - 1)
+textoCifrado = shifttext -> substring (0 , h) +
+shiftCadena
+return textoCifrado
+
+Se coloca el nombre del archivo en el textLabel, despues en el textArea se coloca la informacion.
+1.- Guardar(Se almacena la informacion en el archvio).
+2.- Encripta(Se aplica el metodo usado para encriptar).
+3.- Desencriptar(Se revierte el efecto de encriptar para obtener el texto original).
+4.- Abrir archivo(Se busca el nombre del archivo que se ingreso antes para ver la informacion almacenada).
+
+Texto #3
+abcABC1
+vxpdylY .ph
+vv.xwfxo.fd
+	
+Cadenas resultantes (respectivamente)
+3# rvzgV
+1FECedc
+ks. \n{frzx
+gi.r{hyz-xx
+ositorio.
 
 
-
-Da un ejemplo
-
-12345 == 54321
-abc == cba
-
-Construido con 🛠️
-JFrame
-
-
-
-Versionado 📌
-Usamos SemVer para el versionado. Para todas las versiones disponibles, mira los tags en este repositorio.
-
-Autores ✒️
-Carlos Valtierra
-
-Licencia 📄
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo LICENSE.md para detalles
 
