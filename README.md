@@ -1,5 +1,7 @@
 "En este apartado se mostrara lo visto en este proyecto y sus caracterisicas como otras"
 
+Usando 100% Java.
+
 Problematica a desarrollar:
 
 #Desarrollar un programa que implemente una aplicación con GUI para el cifrado de archivos de texto con el algoritmo de cifrado Vigenère.#
