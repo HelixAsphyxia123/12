@@ -48,9 +48,28 @@ import static mvcfinal.InterfazVista.DECRYPT; //Usada para decriptar.
 import static mvcfinal.InterfazVista.ENCRYPT; //Usada para encriptar.
 import static mvcfinal.InterfazVista.GUARDAR; //Usada para guardar el archivo generado apartir de nuestra encriptacion.
 
---Algoritmo de encriptado y desencriptado.
+--Algoritmo de encriptado, desencriptado, escribir y guardar para el archivo generado.
 
- public String encriptar() {
+class Modelo {
+
+    private String contenido;
+    private String fileName;
+    final char shiftup = (char) 3;
+    final char shiftdown = (char) 1;
+
+    public void setContenido(String texto) {
+        contenido = texto;
+    }
+
+    public String getContenido() {
+        return contenido;
+    }
+
+    public void setFileName(String nombre) {
+        fileName = nombre;
+    }
+
+    public String encriptar() {
         String ctext = "";
         for (String linea : contenido.split("\n")) {
             StringBuilder cadena = new StringBuilder();
@@ -105,6 +124,42 @@ import static mvcfinal.InterfazVista.GUARDAR; //Usada para guardar el archivo ge
         contenido = texto;
         return texto;
     }
+
+    public String read() {
+        String cad;
+        String content = "";
+        File file = new File(fileName);
+        try {
+            if (file.exists()) {
+                BufferedReader b = new BufferedReader(new FileReader(file));
+                while ((cad = b.readLine()) != null) {
+                    content = content + cad + '\n';
+                }
+                b.close();
+            }
+        } catch (FileNotFoundException fileNotFoundException) {
+            System.err.println(" Error opening file .");
+        } catch (IOException ioException) {
+            System.err.println(" Error reading file .");
+        }
+        contenido = content;
+        return content;
+    }
+
+    public void write() {
+        try {
+            File archivo = new File(fileName);
+            BufferedWriter bw = new BufferedWriter(new FileWriter(
+                    archivo));
+            bw.write(contenido);
+            bw.close();
+        } catch (FileNotFoundException fileNotFoundException) {
+            System.err.println(" Error opening file .");
+        } catch (IOException ioException) {
+            System.err.println(" Error reading file .");
+        }
+    }
+}
 
 
 Se coloca el nombre del archivo en el textLabel, despues en el textArea se coloca la informacion.
