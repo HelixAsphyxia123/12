@@ -26,8 +26,11 @@ NetBeans 8.2 y GIT*
 
 Se coloco el nombre del archivo en el textLabel, despues en el textArea se coloca la informacion.
 *1.- Guardar(Se almacena la informacion en el archvio).
+
 2.- Encripta(Se aplica el metodo usado para encriptar).
+
 3.- Desencriptar(Se revierte el efecto de encriptar para obtener el texto original).
+
 4.- Abrir archivo(Se busca el nombre del archivo que se ingreso antes para ver la informacion almacenada).*
 
 -Pueden utilizar estas cadenas como prueba
