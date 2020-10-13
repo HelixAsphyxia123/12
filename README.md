@@ -33,7 +33,7 @@ NetBeans 8.2 y GIT*
 
 *4.- Abrir archivo(Se busca el nombre del archivo que se ingreso antes para ver la informacion almacenada).*
 
-*5.- Se coloca los datos en el textArea para poder empezar a trabajar.
+*5.- Se coloca los datos en el textArea para poder empezar a trabajar.*
 
 # Pueden utilizar estas cadenas como prueba.
 
