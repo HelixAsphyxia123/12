@@ -17,6 +17,9 @@ primera parte es ”defDEF1”, las letras ”DEF1”deben moverse una posición
 Sin embargo, si la palabra resultante de la primera parte es ”tesA”, las letras ”sA”serán
 desplazadas. El resultado cifrado de la cadena es 1FECedc.
 
+*Link del funcionamiento del programa.*
+https://flipgrid.com/86b87252
+
 -Pre-requisitos 📋
 *Se necesita tener las librerias, el github y un IDE.
 NetBeans 8.2 y GIT*
@@ -44,7 +47,9 @@ Se coloco el nombre del archivo en el textLabel, despues en el textArea se coloc
 *Agradecimientos: A nuestro docente por alentarnos y a mi por esforzarme.*
 
 Referencias: 
-https://es.wikipedia.org/wiki/Cifrado_de_Vigen%C3%A8re
+*https://es.wikipedia.org/wiki/Cifrado_de_Vigen%C3%A8re*
+*https://anabelisa.co/readme/*
+*file:///C:/Users/valti/Downloads/Como%20programar%20en%20Java%20-%207ma%20Edicion%20-%20P.%20J.%20Deitel.pdf*
 
 ![](figures/logo_rmarkdown.png)
 
