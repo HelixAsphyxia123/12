@@ -2,7 +2,7 @@
 
 Problematica que se desarrollo:
 
-#Se desarrollo un programa que implemento una aplicación con GUI para el cifrado de archivos de texto con el algoritmo de cifrado Vigenère.#
+*Se desarrollo un programa que implemento una aplicación con GUI para el cifrado de archivos de texto con el algoritmo de cifrado Vigenère.*
 
 Se creo un programa de cifrado simple. El proceso es muy sencillo. Se divide en dos partes.
  En primer lugar, cada letra mayúscula o minúscula debe desplazarse tres posiciones
@@ -17,7 +17,7 @@ primera parte es ”defDEF1”, las letras ”DEF1”deben moverse una posición
 Sin embargo, si la palabra resultante de la primera parte es ”tesA”, las letras ”sA”serán
 desplazadas. El resultado cifrado de la cadena es 1FECedc.
 
-Pre-requisitos 📋
+-Pre-requisitos 📋
 Se necesita tener las librerias, el github y un IDE.
 NetBeans 8.2 y GIT
 
@@ -27,19 +27,19 @@ Se coloco el nombre del archivo en el textLabel, despues en el textArea se coloc
 3.- Desencriptar(Se revierte el efecto de encriptar para obtener el texto original).
 4.- Abrir archivo(Se busca el nombre del archivo que se ingreso antes para ver la informacion almacenada).
 
-#Pueden utilizar estas cadenas como prueba#
+-#Pueden utilizar estas cadenas como prueba#
 
-Texto #3
-abcABC1
-vxpdylY .ph
-vv.xwfxo.fd
+*Texto #3
+*abcABC1
+*vxpdylY .ph
+*vv.xwfxo.fd
 	
-#Cadenas resultantes (respectivamente)#
+-#Cadenas resultantes (respectivamente)#
 
-3# rvzgV
-1FECedc
-ks. \n{frzx
-gi.r{hyz-xx.
+*3# rvzgV
+*1FECedc
+*ks. \n{frzx
+*gi.r{hyz-xx.
 
 Agradecimientos: A nuestro docente por alentarnos y a mi por esforzarme.
 
