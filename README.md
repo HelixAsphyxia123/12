@@ -18,7 +18,7 @@ Sin embargo, si la palabra resultante de la primera parte es ”tesA”, las let
 desplazadas. El resultado cifrado de la cadena es 1FECedc.
 
 # *Link del funcionamiento del programa.*
-https://flipgrid.com/86b87252
+https://www.youtube.com/watch?v=EzmQsFhyrcQ
 
 # -Pre-requisitos 📋
 *Se necesita tener las librerias, el github y un IDE.
