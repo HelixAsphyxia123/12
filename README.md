@@ -17,7 +17,7 @@ primera parte es ”defDEF1”, las letras ”DEF1”deben moverse una posición
 Sin embargo, si la palabra resultante de la primera parte es ”tesA”, las letras ”sA”serán
 desplazadas. El resultado cifrado de la cadena es 1FECedc.
 
-*Link del funcionamiento del programa.*
+# *Link del funcionamiento del programa.*
 https://flipgrid.com/86b87252
 
 -Pre-requisitos 📋
