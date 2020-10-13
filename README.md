@@ -17,10 +17,10 @@ primera parte es ”defDEF1”, las letras ”DEF1”deben moverse una posición
 Sin embargo, si la palabra resultante de la primera parte es ”tesA”, las letras ”sA”serán
 desplazadas. El resultado cifrado de la cadena es 1FECedc.
 
-# *Link del funcionamiento del programa.*
+# Link del funcionamiento del programa.
 https://www.youtube.com/watch?v=EzmQsFhyrcQ
 
-# -Pre-requisitos 📋
+# Pre-requisitos 📋
 *Se necesita tener las librerias, el github y un IDE.
 NetBeans 8.2 y GIT*
 # Elementos visuales y funcionamiento.
@@ -55,7 +55,7 @@ NetBeans 8.2 y GIT*
 
 *gi.r{hyz-xx.*
 
-# *Agradecimientos. 
+# Agradecimientos. 
 
  *A nuestro docente por alentarnos y a mi por esforzarme.*
 
