@@ -1,10 +1,10 @@
-Encriptado.
+# Encriptado Vigenere modificado para guardar en un txt.
 
-Problematica a desarrollar:
+Problematica que se desarrollo:
 
-#Desarrollar un programa que implemente una aplicación con GUI para el cifrado de archivos de texto con el algoritmo de cifrado Vigenère.#
+#Se desarrollo un programa que implemento una aplicación con GUI para el cifrado de archivos de texto con el algoritmo de cifrado Vigenère.#
 
-Se va a crear un programa de cifrado simple. El proceso es muy sencillo. Se divide en dos partes.
+Se creo un programa de cifrado simple. El proceso es muy sencillo. Se divide en dos partes.
  En primer lugar, cada letra mayúscula o minúscula debe desplazarse tres posiciones
 hacia la derecha, de acuerdo con la tabla ASCII: la letra ’a’ debe convertirse en la letra
 ’d’, la letra ’y’ debe convertirse en el carácter ’—’, etc. En segundo lugar, cada línea debe
@@ -21,27 +21,32 @@ Pre-requisitos 📋
 Se necesita tener las librerias, el github y un IDE.
 NetBeans 8.2 y GIT
 
-Se coloca el nombre del archivo en el textLabel, despues en el textArea se coloca la informacion.
+Se coloco el nombre del archivo en el textLabel, despues en el textArea se coloca la informacion.
 1.- Guardar(Se almacena la informacion en el archvio).
 2.- Encripta(Se aplica el metodo usado para encriptar).
 3.- Desencriptar(Se revierte el efecto de encriptar para obtener el texto original).
 4.- Abrir archivo(Se busca el nombre del archivo que se ingreso antes para ver la informacion almacenada).
 
 #Pueden utilizar estas cadenas como prueba#
+
 Texto #3
 abcABC1
 vxpdylY .ph
 vv.xwfxo.fd
 	
 #Cadenas resultantes (respectivamente)#
+
 3# rvzgV
 1FECedc
 ks. \n{frzx
 gi.r{hyz-xx.
 
-#Agradecimientos: Levy Rojas(nuestro docente).#
+Agradecimientos: A nuestro docente por alentarnos y a mi por esforzarme.
 
+Referencias: 
+https://es.wikipedia.org/wiki/Cifrado_de_Vigen%C3%A8re
 
+![](figures/logo_rmarkdown.png)
 
 
 
