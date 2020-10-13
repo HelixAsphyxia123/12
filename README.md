@@ -18,30 +18,30 @@ Sin embargo, si la palabra resultante de la primera parte es ”tesA”, las let
 desplazadas. El resultado cifrado de la cadena es 1FECedc.
 
 -Pre-requisitos 📋
-Se necesita tener las librerias, el github y un IDE.
-NetBeans 8.2 y GIT
+*Se necesita tener las librerias, el github y un IDE.
+NetBeans 8.2 y GIT*
 
 Se coloco el nombre del archivo en el textLabel, despues en el textArea se coloca la informacion.
-1.- Guardar(Se almacena la informacion en el archvio).
+*1.- Guardar(Se almacena la informacion en el archvio).
 2.- Encripta(Se aplica el metodo usado para encriptar).
 3.- Desencriptar(Se revierte el efecto de encriptar para obtener el texto original).
-4.- Abrir archivo(Se busca el nombre del archivo que se ingreso antes para ver la informacion almacenada).
+4.- Abrir archivo(Se busca el nombre del archivo que se ingreso antes para ver la informacion almacenada).*
 
--#Pueden utilizar estas cadenas como prueba#
+-Pueden utilizar estas cadenas como prueba
 
-*Texto #3
-*abcABC1
-*vxpdylY .ph
-*vv.xwfxo.fd
+*Texto #3*
+*abcABC1*
+*vxpdylY .ph*
+*vv.xwfxo.fd*
 	
--#Cadenas resultantes (respectivamente)#
+-Cadenas resultantes (respectivamente)
 
-*3# rvzgV
-*1FECedc
-*ks. \n{frzx
-*gi.r{hyz-xx.
+*3# rvzgV*
+*1FECedc*
+*ks. \n{frzx*
+*gi.r{hyz-xx.*
 
-Agradecimientos: A nuestro docente por alentarnos y a mi por esforzarme.
+*Agradecimientos: A nuestro docente por alentarnos y a mi por esforzarme.*
 
 Referencias: 
 https://es.wikipedia.org/wiki/Cifrado_de_Vigen%C3%A8re
