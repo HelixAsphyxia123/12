@@ -35,7 +35,9 @@ NetBeans 8.2 y GIT*
 
 *5.- Se coloca los datos en el textArea para poder empezar a trabajar.*
 
-# Pueden utilizar estas cadenas como prueba.
+# Pruebas
+
+*Pueden utilizar estas cadenas como prueba.*
 
 *Texto #3*
 
